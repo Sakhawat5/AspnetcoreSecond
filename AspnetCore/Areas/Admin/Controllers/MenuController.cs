@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AspnetCore.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class MenuController : Controller
     {
         public IActionResult Index()

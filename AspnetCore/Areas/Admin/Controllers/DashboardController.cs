@@ -12,8 +12,7 @@ namespace AspnetCore.Areas.Admin.Controllers
     {
         public IActionResult Index()
         {
-            DashboardModel dashboardModel = new DashboardModel();
-            dashboardModel.MenuModel = new MenuModel();
+            var dashboardModel = new DashboardModel();
             return View(dashboardModel);
         }
     }

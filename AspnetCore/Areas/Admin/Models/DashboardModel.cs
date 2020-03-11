@@ -5,8 +5,8 @@ using System.Threading.Tasks;
 
 namespace AspnetCore.Areas.Admin.Models
 {
-    public class DashboardModel
+    public class DashboardModel: AdminBaseModel
     {
-        public MenuModel MenuModel { get; set; }
+        
     }
 }
