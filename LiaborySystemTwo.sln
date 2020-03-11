@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspnetCore", "AspnetCore\AspnetCore.csproj", "{B120AE23-D379-4C47-BC1E-3E9A96D4C2E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSiteStatus", "WebSiteStatus\WebSiteStatus.csproj", "{990BBC70-0A6C-451E-978D-17A8400781CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B120AE23-D379-4C47-BC1E-3E9A96D4C2E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B120AE23-D379-4C47-BC1E-3E9A96D4C2E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B120AE23-D379-4C47-BC1E-3E9A96D4C2E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B120AE23-D379-4C47-BC1E-3E9A96D4C2E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{990BBC70-0A6C-451E-978D-17A8400781CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{990BBC70-0A6C-451E-978D-17A8400781CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{990BBC70-0A6C-451E-978D-17A8400781CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{990BBC70-0A6C-451E-978D-17A8400781CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F73725D1-9580-4B05-8C41-BD62F996359A}
+	EndGlobalSection
+EndGlobal
