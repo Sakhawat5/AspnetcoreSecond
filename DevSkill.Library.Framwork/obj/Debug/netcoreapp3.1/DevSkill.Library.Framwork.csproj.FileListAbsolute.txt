@@ -1,0 +1,8 @@
+C:\Users\Sakhawat Hosen\Desktop\Repository\AspnetcoreSecond\DevSkill.Library.Framwork\bin\Debug\netcoreapp3.1\DevSkill.Library.Framwork.deps.json
+C:\Users\Sakhawat Hosen\Desktop\Repository\AspnetcoreSecond\DevSkill.Library.Framwork\bin\Debug\netcoreapp3.1\DevSkill.Library.Framwork.dll
+C:\Users\Sakhawat Hosen\Desktop\Repository\AspnetcoreSecond\DevSkill.Library.Framwork\bin\Debug\netcoreapp3.1\DevSkill.Library.Framwork.pdb
+C:\Users\Sakhawat Hosen\Desktop\Repository\AspnetcoreSecond\DevSkill.Library.Framwork\obj\Debug\netcoreapp3.1\DevSkill.Library.Framwork.csprojAssemblyReference.cache
+C:\Users\Sakhawat Hosen\Desktop\Repository\AspnetcoreSecond\DevSkill.Library.Framwork\obj\Debug\netcoreapp3.1\DevSkill.Library.Framwork.AssemblyInfoInputs.cache
+C:\Users\Sakhawat Hosen\Desktop\Repository\AspnetcoreSecond\DevSkill.Library.Framwork\obj\Debug\netcoreapp3.1\DevSkill.Library.Framwork.AssemblyInfo.cs
+C:\Users\Sakhawat Hosen\Desktop\Repository\AspnetcoreSecond\DevSkill.Library.Framwork\obj\Debug\netcoreapp3.1\DevSkill.Library.Framwork.dll
+C:\Users\Sakhawat Hosen\Desktop\Repository\AspnetcoreSecond\DevSkill.Library.Framwork\obj\Debug\netcoreapp3.1\DevSkill.Library.Framwork.pdb

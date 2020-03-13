@@ -10,7 +10,7 @@
 }
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <section class="content-header">
+    <section class="content-head er">
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
@@ -41,14 +41,14 @@
                         <table id="example1" class="table table-bordered table-striped">
                             <thead>
                                 <tr>
-                                    <th>Rendering engine</th>
-                                    <th>Browser</th>
-                                    <th>Platform(s)</th>
-                                    <th>Engine version</th>
-                                    <th>CSS grade</th>
+                                    <th><input type="checkbox" /></th>
+                                    <th>Title</th>
+                                    <th>Author</th>
+                                    <th>Edition version</th>
+                                    <th>Publish Date</th>
                                 </tr>
                             </thead>
-                            <tbody>
+                            @*<tbody>
                                 <tr>
                                     <td>Trident</td>
                                     <td>
@@ -460,14 +460,14 @@
                                     <td>-</td>
                                     <td>U</td>
                                 </tr>
-                            </tbody>
+                            </tbody>*@
                             <tfoot>
                                 <tr>
-                                    <th>Rendering engine</th>
-                                    <th>Browser</th>
-                                    <th>Platform(s)</th>
-                                    <th>Engine version</th>
-                                    <th>CSS grade</th>
+                                    <th><input type="checkbox" /></th>
+                                    <th>Title</th>
+                                    <th>Author</th>
+                                    <th>Edition version</th>
+                                    <th>Publish Date</th>
                                 </tr>
                             </tfoot>
                         </table>
@@ -483,29 +483,27 @@
     <!-- /.content -->
 </div>
 @section PageScripts{
-    <!-- jQuery -->
-    <script src="/admin/plugins/jquery/jquery.min.js"></script>
-    <!-- Bootstrap 4 -->
-    <script src="/admin/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
     <!-- DataTables -->
     <script src="/admin/plugins/datatables/jquery.dataTables.js"></script>
     <script src="/admin/plugins/datatables-bs4/js/dataTables.bootstrap4.js"></script>
-    <!-- AdminLTE App -->
-    <script src="/admin/dist/js/adminlte.min.js"></script>
-    <!-- AdminLTE for demo purposes -->
-    <script src="/admin/dist/js/demo.js"></script>
     <!-- page script -->
     <script>
-    $(function () {
-            $("#example1").DataTable();
-            $('#example2').DataTable({
-                "paging": true,
-                "lengthChange": false,
-                "searching": false,
-                "ordering": true,
-                "info": true,
-                "autoWidth": false,
+        $(function () {
+            $('#example1').DataTable({
+                "processing": true,
+                "serverSide": true,
+                "ajax": "/Admin/Books/GetBooks",
+                "columnDefs": [
+                    {
+                        "orderable": false,
+                        "targets": 0,
+                        "render": function (data, type, row) {
+                            return `<input type='checkbox' value='${data}' />`;
+                        }
+                    }
+                ]
             });
-        });</script>
+        });
+    </script>
 }
 

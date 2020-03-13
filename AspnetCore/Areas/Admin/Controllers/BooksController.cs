@@ -15,5 +15,14 @@ namespace AspnetCore.Areas.Admin.Controllers
             var bookModel = new BookModel();
             return View(bookModel);
         }
+
+        public IActionResult GetBooks()
+        {
+            var tableModel = new DataTableAjaxRequestModel(Request);
+            var model = new BookModel();
+            var data = model.GetBooks(tableModel);
+
+            return Json(data);
+        }
     }
 }

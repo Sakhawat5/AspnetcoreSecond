@@ -2644,6 +2644,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "DevSkill.Library.Framwork/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/DevSkill.Library.Framwork.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DevSkill.Library.Framwork.dll": {}
+        }
       }
     }
   },
@@ -8577,10 +8587,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "DevSkill.Library.Framwork/1.0.0": {
+      "type": "project",
+      "path": "../DevSkill.Library.Framwork/DevSkill.Library.Framwork.csproj",
+      "msbuildProject": "../DevSkill.Library.Framwork/DevSkill.Library.Framwork.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "DevSkill.Library.Framwork >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 3.1.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.0",
       "Microsoft.AspNetCore.Identity.UI >= 3.1.0",
@@ -8618,7 +8634,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Sakhawat Hosen\\Desktop\\Repository\\AspnetcoreSecond\\DevSkill.Library.Framwork\\DevSkill.Library.Framwork.csproj": {
+              "projectPath": "C:\\Users\\Sakhawat Hosen\\Desktop\\Repository\\AspnetcoreSecond\\DevSkill.Library.Framwork\\DevSkill.Library.Framwork.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

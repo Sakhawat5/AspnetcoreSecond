@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspnetCore", "AspnetCore\As
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSiteStatus", "WebSiteStatus\WebSiteStatus.csproj", "{990BBC70-0A6C-451E-978D-17A8400781CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevSkill.Library.Framwork", "DevSkill.Library.Framwork\DevSkill.Library.Framwork.csproj", "{FC7010D5-9330-4AF7-AA78-67EAC079C2CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{990BBC70-0A6C-451E-978D-17A8400781CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{990BBC70-0A6C-451E-978D-17A8400781CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{990BBC70-0A6C-451E-978D-17A8400781CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC7010D5-9330-4AF7-AA78-67EAC079C2CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC7010D5-9330-4AF7-AA78-67EAC079C2CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7010D5-9330-4AF7-AA78-67EAC079C2CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC7010D5-9330-4AF7-AA78-67EAC079C2CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

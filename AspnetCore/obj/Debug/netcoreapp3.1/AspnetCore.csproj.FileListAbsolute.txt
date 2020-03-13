@@ -289,3 +289,5 @@ C:\Users\Sakhawat Hosen\Desktop\Repository\AspnetcoreSecond\AspnetCore\obj\Debug
 C:\Users\Sakhawat Hosen\Desktop\Repository\AspnetcoreSecond\AspnetCore\obj\Debug\netcoreapp3.1\AspnetCore.pdb
 C:\Users\Sakhawat Hosen\Desktop\Repository\AspnetcoreSecond\AspnetCore\obj\Debug\netcoreapp3.1\AspnetCore.csprojAssemblyReference.cache
 C:\Users\Sakhawat Hosen\Desktop\Repository\AspnetcoreSecond\AspnetCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Books\Index.cshtml.g.cs
+C:\Users\Sakhawat Hosen\Desktop\Repository\AspnetcoreSecond\AspnetCore\bin\Debug\netcoreapp3.1\DevSkill.Library.Framwork.dll
+C:\Users\Sakhawat Hosen\Desktop\Repository\AspnetcoreSecond\AspnetCore\bin\Debug\netcoreapp3.1\DevSkill.Library.Framwork.pdb
