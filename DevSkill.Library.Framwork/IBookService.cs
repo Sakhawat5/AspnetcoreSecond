@@ -7,7 +7,7 @@ namespace DevSkill.Library.Framwork
 {
     public interface IBookService
     {
-        (IList<Book> recoards, int total, int totalDisplay) GetBooks(int pageIndex,
+        public (IList<Book> recoards, int total, int totalDisplay) GetBooks(int pageIndex,
                                                                         int pageSize, 
                                                                         string searchText);
     }

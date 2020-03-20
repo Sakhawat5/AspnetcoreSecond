@@ -291,3 +291,8 @@ C:\Users\Sakhawat Hosen\Desktop\Repository\AspnetcoreSecond\AspnetCore\obj\Debug
 C:\Users\Sakhawat Hosen\Desktop\Repository\AspnetcoreSecond\AspnetCore\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Books\Index.cshtml.g.cs
 C:\Users\Sakhawat Hosen\Desktop\Repository\AspnetcoreSecond\AspnetCore\bin\Debug\netcoreapp3.1\DevSkill.Library.Framwork.dll
 C:\Users\Sakhawat Hosen\Desktop\Repository\AspnetcoreSecond\AspnetCore\bin\Debug\netcoreapp3.1\DevSkill.Library.Framwork.pdb
+C:\Users\Sakhawat Hosen\Desktop\Repository\AspnetcoreSecond\AspnetCore\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Sakhawat Hosen\Desktop\Repository\AspnetcoreSecond\AspnetCore\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Sakhawat Hosen\Desktop\Repository\AspnetcoreSecond\AspnetCore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Sakhawat Hosen\Desktop\Repository\AspnetcoreSecond\AspnetCore\bin\Debug\netcoreapp3.1\DevSkill.Library.Data.dll
+C:\Users\Sakhawat Hosen\Desktop\Repository\AspnetcoreSecond\AspnetCore\bin\Debug\netcoreapp3.1\DevSkill.Library.Data.pdb
